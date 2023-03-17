@@ -1,0 +1,28 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "name": "Yes Chef",
+        "description": "Yes Chef! is a restaurant inventory app developed using React and Ruby on Rails.",
+        "image-url": "URL needed",
+        "github-url": "https://github.com/ohheycerimay/phase-5-yes-chef",
+        "loom-url": "URL needed"
+      },
+      {
+        "id": 1,
+        "name": "Wander",
+        "description": "Wander is a niche travel blog that showcases unique experiences.",
+        "image-url": "URL needed",
+        "github-url": "https://github.com/paigetetz/Wander",
+        "loom-url": "URL needed"
+      },
+      {
+        "id": 2,
+        "name": "GoT or Not",
+        "description": "A Game of Thrones meets Grand Theft Auto with a dash of satire dating site.",
+        "image-url": "URL needed",
+        "github-url": "https://github.com/ohheycerimay/phase-2-NoTGoT",
+        "loom-url": "URL needed"
+      }
+    ]
+}
