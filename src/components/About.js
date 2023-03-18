@@ -8,7 +8,7 @@ function About(props) {
         <h2 class="text-3xl font-bold mb-4">About Me</h2>
         <div class="flex flex-wrap -mx-2">
           <div class="w-full md:w-1/2 px-2">
-            <img src={CeriMay} alt="Ceri May" class="w-full h-auto mb-4" />
+            <img src={CeriMay} alt="Ceri May" class="rounded-lg shadow-md" />
           </div>
           <div class="w-full md:w-1/2 px-2">
             <p class="text-gray-700 mb-4">

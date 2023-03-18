@@ -21,6 +21,7 @@ function Modal() {
             <button className="close-button" onClick={handleCloseModal}>
               X
             </button>
+            Hi! I'm available for hire!
             <img src={CeriMay}/>
           </div>
         </div>

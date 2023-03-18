@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import aphoto1 from "./aphoto1.avif";
+import CeriJoey from "./CeriJoey.JPG";
 
 function Contact(props) {
   const [firstName, setFirstName] = useState("");
@@ -135,7 +135,7 @@ function Contact(props) {
           </form>
         </div>
         <div class="w-full sm:w-1/2">
-          <img src={aphoto1} alt="Image description" />
+          <img src={CeriJoey} alt="Image description" class="rounded-lg shadow-md"/>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import aphoto3 from "./aphoto3.jpeg";
+import CeriProfile from "./CeriProfile.JPG";
 import Modal from "./Modal";
 
 function Home(props) {
@@ -18,7 +18,7 @@ function Home(props) {
           </div>
           <div class="w-full md:w-1/2 mt-8 md:mt-0">
             <img
-              src={aphoto3}
+              src={CeriProfile}
               alt="Gothic Image"
               class="rounded-lg shadow-md"
             />
