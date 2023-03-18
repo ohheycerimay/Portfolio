@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css'
 import React, {useState, useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
 import ProjectContainer from './components/ProjectContainer'
