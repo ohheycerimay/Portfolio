@@ -1,10 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar(props) {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav class="bg-black text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-20 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <div class="flex-shrink-0">
             <a href="/home" class="font-bold text-lg">
@@ -34,16 +41,17 @@ function NavBar(props) {
               type="button"
               class="text-gray-300 hover:text-white focus:outline-none focus:text-white"
               aria-label="Toggle menu"
+              onClick={toggleMenu}
             >
               <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                 <path
-                  class="hidden"
+                  className={menuOpen ? 'hidden' : 'block'}
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M4 6H20V8H4V6ZM4 11H20V13H4V11ZM4 16H20V18H4V16Z"
                 />
                 <path
-                  class="block"
+                  className={menuOpen ? 'block' : 'hidden'}
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M4 6H20V8H4V6ZM4 11H20V13H4V11ZM4 16H20V18H4V16ZM4 21H20V23H4V21Z"
@@ -82,7 +90,7 @@ function NavBar(props) {
           </div>
         </div>
       </div>
-      <div class="md:hidden hidden bg-gray-900">
+      <div className={menuOpen ? 'md:hidden block bg-gray-900' : 'md:hidden hidden bg-gray-900'}>
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <a
             href="#"

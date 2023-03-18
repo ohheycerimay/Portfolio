@@ -1,7 +1,7 @@
 import './App.css';
 import './index.css'
 import React, {useState, useEffect} from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import ProjectContainer from './components/ProjectContainer'
 import LandingPage from './components/LandingPage'
 import Home from './components/Home';
@@ -26,7 +26,7 @@ function App() {
     <div className="App">
     <NavBar />
       <Routes>
-        <Route path='/' element={<LandingPage />} />
+        <Route exact path='/' element={<LandingPage />} />
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
