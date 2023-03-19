@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 import CeriMay from './CeriMay.png'
 
 function Modal() {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false)
 
   const handleCloseModal = () => {
-    setShowModal(false);
-  };
+    setShowModal(false)
+  }
 
   const handleOpenModal = () => {
-    setShowModal(true);
-  };
+    setShowModal(true)
+  }
 
   return (
     <>
@@ -22,12 +22,12 @@ function Modal() {
               X
             </button>
             Hi! I'm available for hire!
-            <img src={CeriMay}/>
+            <img src={CeriMay} />
           </div>
         </div>
       )}
     </>
-  );
+  )
 }
 
-export default Modal;
+export default Modal

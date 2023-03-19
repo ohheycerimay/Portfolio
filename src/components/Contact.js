@@ -1,38 +1,38 @@
-import React, { useState } from "react";
-import CeriJoey from "./CeriJoey.JPG";
+import React, { useState } from 'react'
+import CeriJoey from './CeriJoey.JPG'
 
 function Contact(props) {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [firstName, setFirstName] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
   const handleFirstNameChange = (event) => {
-    setFirstName(event.target.value);
-  };
+    setFirstName(event.target.value)
+  }
 
   const handleLastNameChange = (event) => {
-    setLastName(event.target.value);
-  };
+    setLastName(event.target.value)
+  }
 
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
+    setEmail(event.target.value)
+  }
 
   const handleMessageChange = (event) => {
-    setMessage(event.target.value);
-  };
+    setMessage(event.target.value)
+  }
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault()
     // Submit form data
-    console.log({ firstName, lastName, email, message });
+    console.log({ firstName, lastName, email, message })
     // Reset form
-    setFirstName("");
-    setLastName("");
-    setEmail("");
-    setMessage("");
-  };
+    setFirstName('')
+    setLastName('')
+    setEmail('')
+    setMessage('')
+  }
 
   return (
     <section class="bg-gray-100 py-12">
@@ -47,13 +47,11 @@ function Contact(props) {
           <form
             class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             action="https://formspree.io/f/xayzbrao"
-            method="POST"
-          >
+            method="POST">
             <div>
               <label
                 for="first_name"
-                class="block text-sm font-medium text-gray-700"
-              >
+                class="block text-sm font-medium text-gray-700">
                 First name
               </label>
               <div class="mt-1">
@@ -71,8 +69,7 @@ function Contact(props) {
             <div>
               <label
                 for="last_name"
-                class="block text-sm font-medium text-gray-700"
-              >
+                class="block text-sm font-medium text-gray-700">
                 Last name
               </label>
               <div class="mt-1">
@@ -90,8 +87,7 @@ function Contact(props) {
             <div class="sm:col-span-2">
               <label
                 for="email"
-                class="block text-sm font-medium text-gray-700"
-              >
+                class="block text-sm font-medium text-gray-700">
                 Email
               </label>
               <div class="mt-1">
@@ -109,8 +105,7 @@ function Contact(props) {
             <div class="sm:col-span-2">
               <label
                 for="message"
-                class="block text-sm font-medium text-gray-700"
-              >
+                class="block text-sm font-medium text-gray-700">
                 Message
               </label>
               <div class="mt-1">
@@ -118,8 +113,7 @@ function Contact(props) {
                   id="message"
                   name="message"
                   rows="4"
-                  class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-                ></textarea>
+                  class="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"></textarea>
               </div>
             </div>
             <div class="sm:col-span-2">
@@ -127,19 +121,22 @@ function Contact(props) {
                 value={message}
                 onChange={handleMessageChange}
                 type="submit"
-                class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-rose-400 hover:bg-warm-gray-9000 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black-500"
-              >
+                class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-rose-400 hover:bg-warm-gray-9000 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black-500">
                 Send message
               </button>
             </div>
           </form>
         </div>
         <div class="w-full sm:w-1/2">
-          <img src={CeriJoey} alt="Image description" class="rounded-lg shadow-md"/>
+          <img
+            src={CeriJoey}
+            alt="Image description"
+            class="rounded-lg shadow-md"
+          />
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

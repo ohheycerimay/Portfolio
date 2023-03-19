@@ -1,5 +1,5 @@
-import React from "react";
-import Modal from "./Modal";
+import React from 'react'
+import Modal from './Modal'
 
 function LandingPage(props) {
   return (
@@ -21,7 +21,7 @@ function LandingPage(props) {
         </Modal>
       </body>
     </html>
-  );
+  )
 }
 
-export default LandingPage;
+export default LandingPage

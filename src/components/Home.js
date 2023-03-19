@@ -1,6 +1,6 @@
-import React from "react";
-import CeriProfile from "./CeriProfile.JPG";
-import Modal from "./Modal";
+import React from 'react'
+import CeriProfile from './CeriProfile.JPG'
+// import Modal from './Modal'
 
 function Home(props) {
   return (
@@ -10,10 +10,10 @@ function Home(props) {
           <div class="w-full md:w-1/2">
             <h2 class="text-4xl font-bold mb-4">// SOFTWARE ENGINEER //</h2>
             <p class="text-xl mb-6">
-              <Modal>
+              {/* <Modal>
                 <h2>Ceri</h2>
                 <p>Modal content goes here.</p>
-              </Modal>
+              </Modal> */}
             </p>
           </div>
           <div class="w-full md:w-1/2 mt-8 md:mt-0">
@@ -26,7 +26,7 @@ function Home(props) {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Home;
+export default Home

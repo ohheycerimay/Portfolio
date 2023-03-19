@@ -1,10 +1,11 @@
-import React from "react";
-import CeriMay from "./CeriMay.png";
+import React from 'react'
+import CeriMay from './CeriMay.png'
 
 function About(props) {
   return (
     <section class="bg-gray-100 py-8">
       <div class="container mx-auto px-2 md:px-0">
+       
         <h2 class="text-3xl font-bold mb-4">About Me</h2>
         <div class="flex flex-wrap -mx-2">
           <div class="w-full md:w-1/2 px-2">
@@ -23,7 +24,7 @@ function About(props) {
               currently digging into Typescript, Python, and MongoDB as well). I
               love the creativity and problem-solving that goes into coding, and
               I’m constantly pushing myself to learn new skills and
-              technologies.{" "}
+              technologies.{' '}
             </p>
             <p class="text-gray-700 mb-4">
               As a software engineer, I’m passionate about creating intuitive
@@ -46,17 +47,64 @@ function About(props) {
               stopping by my little spot on the web, and reach out if you’d like
               to learn more or collaborate on a project!
             </p>
-            <a
+            
+            {/* <a
               href="#"
               class="bg-rose-400 hover:bg-rose-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               back to top
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
+      
+      <div style={{ textAlign: 'center' }}>
+        <h1 style={{ color: 'black' }}>Skills</h1>
+        <br></br>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: '1rem',
+          }}>
+          <div>
+            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+              <li>&#10148; React.js</li>
+              <li>&#10148; Object-Oriented Programming</li>
+              <li>&#10148; Ruby on Rails</li>
+              <li>&#10148; ActiveRecord</li>
+              <li>&#10148; Full-Stack Development</li>
+              <li>&#10148; Business Development</li>
+              <li>&#10148; Javascript</li>
+            </ul>
+          </div>
+          <div>
+            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+              <li>&#10148; Responsive Web Design</li>
+              <li>&#10148; REST APIs</li>
+              <li>&#10148; Wireframing</li>
+              <li>&#10148; Critical Thinking</li>
+              <li>&#10148; Debugging</li>
+              <li>&#10148; Management</li>
+              <li>&#10148; Leadership</li>
+            </ul>
+          </div>
+          <div>
+            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+              <li>&#10148; Tailwind CSS</li>
+              <li>&#10148; Node.js</li>
+              <li>&#10148; Ruby</li>
+              <li>&#10148; HTML, CSS</li>
+              <li>&#10148; Marketing</li>
+              <li>&#10148; Problem Solving</li>
+              <li>&#10148; Sales</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
     </section>
-  );
+  )
 }
 
-export default About;
+export default About
