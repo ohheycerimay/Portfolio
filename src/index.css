@@ -35,3 +35,24 @@
   right: 0.5rem;
 }
 
+/* In your CSS file */
+.landing-page {
+  /* Set the height of the navbar and footer to 0 */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.landing-page .navbar,
+.landing-page .footer {
+  /* Hide the navbar and footer */
+  display: none;
+}
+
+.devicon-devicon-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-devicon-plain path {
+  fill: #4691f6;
+}

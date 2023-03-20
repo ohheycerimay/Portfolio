@@ -5,7 +5,6 @@ function About(props) {
   return (
     <section class="bg-gray-100 py-8">
       <div class="container mx-auto px-2 md:px-0">
-       
         <h2 class="text-3xl font-bold mb-4">About Me</h2>
         <div class="flex flex-wrap -mx-2">
           <div class="w-full md:w-1/2 px-2">
@@ -47,7 +46,7 @@ function About(props) {
               stopping by my little spot on the web, and reach out if you’d like
               to learn more or collaborate on a project!
             </p>
-            
+
             {/* <a
               href="#"
               class="bg-rose-400 hover:bg-rose-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -57,8 +56,8 @@ function About(props) {
           </div>
         </div>
       </div>
-      
-      <div style={{ textAlign: 'center' }}>
+      <br></br>
+      {/* <div style={{ textAlign: 'center' }}>
         <h1 style={{ color: 'black' }}>Skills</h1>
         <br></br>
         <div
@@ -101,8 +100,7 @@ function About(props) {
             </ul>
           </div>
         </div>
-        
-      </div>
+      </div> */}
     </section>
   )
 }

@@ -1,7 +1,7 @@
 import './App.css'
 import './index.css'
 import React, { useState, useEffect } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import ProjectContainer from './components/ProjectContainer'
 import LandingPage from './components/LandingPage'
 import Home from './components/Home'
@@ -22,9 +22,12 @@ function App() {
       .then((data) => setProjects(data))
   }, [])
 
+  const location = useLocation();
+  const isLandingPage = location.pathname === '/';
+
   return (
     <div className= "font-display">
-      <NavBar />
+       {!isLandingPage && <NavBar />}
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
@@ -36,7 +39,7 @@ function App() {
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
+      {!isLandingPage && <Footer />}
     </div>
   )
 }

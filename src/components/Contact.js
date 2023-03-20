@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CeriJoey from './CeriJoey.JPG'
+import aphoto3 from './aphoto3.jpeg'
 
 function Contact(props) {
   const [firstName, setFirstName] = useState('')
@@ -121,18 +121,22 @@ function Contact(props) {
                 value={message}
                 onChange={handleMessageChange}
                 type="submit"
-                class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-rose-400 hover:bg-warm-gray-9000 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black-500">
+                class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-900 hover:bg-gray-400 duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black-500">
                 Send message
               </button>
             </div>
           </form>
         </div>
-        <div class="w-full sm:w-1/2">
+        <div class="table-cell text-left sm:w-1/2 ">
           <img
-            src={CeriJoey}
+            src={aphoto3}
             alt="Image description"
-            class="rounded-lg shadow-md"
+            class="rounded-lg shadow-md ml-10"
           />
+          Michelle V. Agins/The New York Times
+          <div>
+          
+          </div>
         </div>
       </div>
     </section>
