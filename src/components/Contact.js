@@ -36,19 +36,19 @@ function Contact(props) {
 
   return (
     <section class="bg-gray-100 py-12">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center">
-        <div class="max-w-lg mx-auto sm:mr-4">
-          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Say Hello!
-          </h2>
-          <p class="mt-4 text-lg text-gray-500">
-            Drop a line and I'll get back to you as soon as possible!
-          </p>
-          <form
-            class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-            action="https://formspree.io/f/xayzbrao"
-            method="POST">
-            <div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center pt-20">
+    <div class="max-w-lg mx-auto md:mr-4 mb-8 md:mb-0">
+      <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        Say Hello!
+      </h2>
+      <p class="mt-4 text-lg text-gray-500">
+        Drop a line and I'll get back to you as soon as possible!
+      </p>
+      <form
+        class="mt-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-8"
+        action="https://formspree.io/f/xayzbrao"
+        method="POST">
+         <div>
               <label
                 for="first_name"
                 class="block text-sm font-medium text-gray-700">
@@ -125,20 +125,20 @@ function Contact(props) {
                 Send message
               </button>
             </div>
-          </form>
-        </div>
-        <div class="table-cell text-left sm:w-1/2 ">
-          <img
-            src={aphoto3}
-            alt="Image description"
-            class="rounded-lg shadow-md ml-10"
-          />
-          <div class="mt-2 ml-10 text-sm text-gray-600">
-            Photo by Michelle V. Agins/The New York Times
-          </div>
-        </div>
+      </form>
+    </div>
+    <div class="table-cell text-left sm:w-1/2 ">
+      <img
+        src={aphoto3}
+        alt="Image description"
+        class="rounded-lg shadow-md mx-auto md:ml-10 w-3/4 md:w-auto"
+      />
+      <div class="mt-2 text-center md:text-left md:ml-10 text-sm text-gray-600">
+        Photo by Michelle V. Agins/The New York Times
       </div>
-    </section>
+    </div>
+  </div>
+</section>
   )
 }
 

@@ -56,3 +56,12 @@
 .devicon-devicon-plain path {
   fill: #4691f6;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Adjust this value accordingly */
+  /* Other navbar styles */
+}

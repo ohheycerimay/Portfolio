@@ -10,7 +10,7 @@ function NavBar(props) {
 
   return (
     <body class="pt-20">
-      <nav class="bg-black text-white fixed w-full top-0 h-20">
+      <nav class="bg-black text-white fixed top-0 left-0 w-full h-20 z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-20 lg:px-8">
           <div class="flex items-center justify-between h-16">
             <div class="flex-shrink-0">

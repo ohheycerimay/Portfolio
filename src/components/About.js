@@ -3,8 +3,8 @@ import CeriMay from './CeriMay.png'
 
 function About(props) {
   return (
-    <section class="bg-gray-100 py-8">
-  <div class="container mx-auto px-4 md:px-0">
+    <section class="bg-gray-100 py-8 ">
+  <div class="container mx-auto px-4 md:px-0 pt-20">
     <h2 class="text-3xl font-bold mb-4">About Me</h2>
     <div class="flex flex-wrap -mx-2">
       <div class="w-full md:w-1/2 px-2">
