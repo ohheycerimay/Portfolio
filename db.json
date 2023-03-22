@@ -7,16 +7,28 @@
         "tech": "React, Ruby on Rails",
         "image_url": "URL needed",
         "github": "https://github.com/ohheycerimay/phase-5-yes-chef",
-        "loom": "URL needed"
+        "loom": "URL needed",
+        "images": [
+          "https://i.imgur.com/yKeZkmI.png",
+          "https://i.imgur.com/CE3trUi.png",
+          "https://i.imgur.com/HIYk4jw.png",
+          "https://i.imgur.com/IvgDOHv.png"
+        ]
       },
       {
         "id": 1,
         "name": "Wander",
         "description": "Wander is a niche travel blog that showcases unique experiences.",
         "tech": "React, Ruby on Rails",
-        "image_url": "URL needed",
+        "image_url": "https://i.imgur.com/vNMUvW9.png",
         "github": "https://github.com/paigetetz/Wander",
-        "loom": "URL needed"
+        "loom": "URL needed",
+        "images": [
+          "https://i.imgur.com/vNMUvW9.png",
+          "https://i.imgur.com/pcQ9cxe.png",
+          "https://i.imgur.com/YorZ088.png",
+          "https://i.imgur.com/HeIS7st.png"
+        ]
       },
       {
         "id": 2,
@@ -25,7 +37,13 @@
         "tech": "React",
         "image_url": "URL needed",
         "github": "https://github.com/ohheycerimay/phase-2-NoTGoT",
-        "loom": "URL needed"
+        "loom": "URL needed",
+        "images": [
+          "https://i.imgur.com/iG8UJtw.png",
+          "https://i.imgur.com/VdAgqK5.png",
+          "https://i.imgur.com/W4t1EWu.png",
+          "https://i.imgur.com/cLc2u8s.png"
+        ]
       }
     ]
 }

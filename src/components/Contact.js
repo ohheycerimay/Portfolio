@@ -133,9 +133,8 @@ function Contact(props) {
             alt="Image description"
             class="rounded-lg shadow-md ml-10"
           />
-          Michelle V. Agins/The New York Times
-          <div>
-          
+          <div class="mt-2 ml-10 text-sm text-gray-600">
+            Photo by Michelle V. Agins/The New York Times
           </div>
         </div>
       </div>

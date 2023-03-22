@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CeriMay from './CeriMay.png'
+import Lora from './Lora.png'
 
 function Modal() {
   const [showModal, setShowModal] = useState(false)
@@ -14,7 +14,7 @@ function Modal() {
 
   return (
     <>
-      <button onClick={handleOpenModal}>⌖</button>
+      <button onClick={handleOpenModal}><img src={Lora} /></button>
       {showModal && (
         <div className="modal">
           <div className="modal-content">
@@ -22,7 +22,7 @@ function Modal() {
               X
             </button>
             Hi! I'm available for hire!
-            <img src={CeriMay} />
+            
           </div>
         </div>
       )}
