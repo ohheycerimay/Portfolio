@@ -42,7 +42,7 @@ function Contact(props) {
         Say Hello!
       </h2>
       <p class="mt-4 text-lg text-gray-500">
-        Drop a line and I'll get back to you as soon as possible!
+        Drop a line and I'll get back to you!
       </p>
       <form
         class="mt-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-8"
