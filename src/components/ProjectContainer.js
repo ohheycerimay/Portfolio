@@ -28,9 +28,9 @@ let gotImages = [
 
 function ProjectContainer() {
   return (
-    <div>
-      <div class="flex flex-wrap justify-center items-col ">
-        <div class="max-w-fit rounded overflow-hidden shadow-lg m-4 w-1/3">
+    <div class="flex flex-row flex-wrap justify-center">
+      <div class="flex flex-row flex-wrap justify-center">
+        <div class="max-w-fit rounded overflow-hidden shadow-lg w-full max-w-xl m-10">
           <div class="relative">
             <Carousel
               showArrows={true}
@@ -92,7 +92,7 @@ function ProjectContainer() {
       </div>
 
       <div class="flex flex-wrap justify-center items-col ">
-        <div class="max-w-fit rounded overflow-hidden shadow-lg m-4 w-1/3">
+        <div class="max-w-fit rounded overflow-hidden shadow-lg w-full max-w-xl m-10">
           <div class="relative">
             <Carousel
               showArrows={true}
@@ -152,7 +152,7 @@ function ProjectContainer() {
         </div>
       </div>
       <div class="flex flex-wrap justify-center items-col ">
-        <div class="max-w-fit rounded overflow-hidden shadow-lg m-4 w-1/3">
+        <div class="max-w-fit rounded overflow-hidden shadow-lg w-full max-w-xl m-10">
           <div class="relative">
             <Carousel
               showArrows={true}
