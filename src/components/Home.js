@@ -5,8 +5,8 @@ import CeriProfile from './CeriProfile.JPG'
 function Home(props) {
   return (
 
-    <div class="bg-gray-100 min-h-screen flex items-center">
-    <div class="container mx-auto px-4 py-10">
+    <div class="bg-gray-100 min-h-screen flex items-center ">
+    <div class="container mx-auto px-4 py-10 ">
       <div class="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between bg-white rounded-lg shadow-lg overflow-hidden">
         <div class="mb-4 md:mb-0 md:w-1/2 pr-4">
           <img src={CeriProfile} alt="Profile Picture"  class="w-full object-cover rounded-lg shadow-lg my-4 ml-4"/>

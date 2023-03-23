@@ -5,12 +5,19 @@ import { faVideo } from '@fortawesome/free-solid-svg-icons'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // Import carousel styles
 
-function Project({ project }) {
+let chefImages = [
+  "https://i.imgur.com/yKeZkmI.png",
+  "https://i.imgur.com/CE3trUi.png",
+  "https://i.imgur.com/HIYk4jw.png",
+  "https://i.imgur.com/IvgDOHv.png"
+]
+
+function Project() {
   return (
     
-    <div class="flex flex-wrap justify-center items-col pt-20">
-    <div class="max-w-fit rounded overflow-hidden shadow-lg m-4 w-full sm:w-1/2 md:w-1/3">
-      {project && project.images ? (
+    <div class="flex flex-wrap justify-center items-col ">
+    <div class="max-w-fit rounded overflow-hidden shadow-lg m-4 w-1/3">
+      
         <div class="relative">
           <Carousel
             showArrows={true}
@@ -19,7 +26,7 @@ function Project({ project }) {
             infiniteLoop={true}
             style={{ maxHeight: 'calc(100vh - 20rem)' }} // Subtract the height of your navbar from 100vh
           >
-            {project.images.map((image, id) => (
+            {chefImages.map((image, id) => (
               <div key={id}>
                  <img src={image} alt="Website Images" style={{ maxHeight: 'calc(100vh - 4rem)' }} />  
               </div>
@@ -27,17 +34,15 @@ function Project({ project }) {
           </Carousel>
           <div class="absolute top-0 left-0 right-0 h-20"></div> {/* Replace h-16 with the height of your navbar */}
         </div>
-      ) : (
-        <p>Loading...</p>
-      )}
+      
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{project.name}</div>
-        <p class="text-gray-700 text-base">{project.description}</p>
+        <div class="font-bold text-xl mb-2">Yes Chef!</div>
+        <p class="text-gray-700 text-base">Yes Chef! is a restaurant inventory app developed using React and Ruby on Rails.</p>
         <div class="py-4 flex">
           <div class="mr-4">
             <p class="text-sm font-medium text-gray-700 mb-2"></p>
             <a
-              href={project.github}
+              href="https://github.com/ohheycerimay/phase-5-yes-chef"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-900 hover:bg-gray-400 duration-300"
@@ -48,7 +53,7 @@ function Project({ project }) {
           <div>
             <p class="text-sm font-medium text-gray-700 mb-2"></p>
             <a
-              href={project.loom}
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-900 hover:bg-gray-400 duration-300"
@@ -60,7 +65,7 @@ function Project({ project }) {
         <div class="py-4">
           <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
           <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            {project.tech}
+            React, Ruby on Rails
           </span>
         </div>
       </div>
