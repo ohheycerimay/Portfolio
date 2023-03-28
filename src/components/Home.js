@@ -19,9 +19,7 @@ function Home(props) {
               Full Stack Software Developer
             </h1>
             <p class="text-gray-600 text-lg leading-relaxed text-center p-10">
-              Restaurant industry rooted, aspiring cruciverbalist, plant loving
-              city dweller. A dynamic and multifaceted individual with a passion
-              for creating neat things.
+             
             </p>
 
             <div
