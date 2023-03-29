@@ -1,0 +1,7 @@
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

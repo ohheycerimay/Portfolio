@@ -67,7 +67,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
               <div>
@@ -77,7 +77,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>
             </div>
@@ -128,7 +128,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
               <div>
@@ -138,7 +138,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>
             </div>
@@ -188,7 +188,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
               <div>
@@ -198,7 +198,7 @@ function ProjectContainer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
-                  <FontAwesomeIcon icon={faVideo} />
+                  <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>
             </div>

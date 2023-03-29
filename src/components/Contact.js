@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import aphoto3 from './aphoto3.jpeg'
+import aphoto3 from './photos/aphoto3.jpeg'
 
 function Contact(props) {
   const [firstName, setFirstName] = useState('')

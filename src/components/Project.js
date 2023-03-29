@@ -58,7 +58,7 @@ function Project() {
               rel="noopener noreferrer"
               class="text-gray-900 hover:bg-gray-400 duration-300"
             >
-              <FontAwesomeIcon icon={faVideo} />
+              <FontAwesomeIcon icon={faVideo} />Loom
             </a>
           </div>
         </div>

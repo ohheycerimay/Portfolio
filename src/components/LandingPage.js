@@ -1,4 +1,4 @@
-import Lora from './Lora.png'
+import Lora from './photos/Lora.png'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Modal from './Modal'

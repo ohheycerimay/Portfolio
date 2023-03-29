@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Lora from './Lora.png'
+import Lora from './photos/Lora.png'
 
 function Modal() {
   const [showModal, setShowModal] = useState(false)
