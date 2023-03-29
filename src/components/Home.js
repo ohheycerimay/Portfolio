@@ -1,5 +1,6 @@
 import React from 'react'
 import CeriProfile from './CeriProfile.JPG'
+import ResumeModal from './ResumeModal'
 // import Modal from './Modal'
 
 function Home(props) {
@@ -19,7 +20,7 @@ function Home(props) {
               Full Stack Software Developer
             </h1>
             <p class="text-gray-600 text-lg leading-relaxed text-center p-10">
-             
+             <ResumeModal />
             </p>
 
             <div

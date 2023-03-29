@@ -73,7 +73,7 @@ function ProjectContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
@@ -134,7 +134,7 @@ function ProjectContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
@@ -194,7 +194,7 @@ function ProjectContainer() {
               <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href=""
+                  href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-400 duration-300">
