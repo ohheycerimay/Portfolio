@@ -18,7 +18,7 @@ function Home(props) {
             />
           </div>
           <div className="md:w-1/2 pl-4">
-            <h1 class="text-gray-600 text-5xl leading-relaxed text-center p-16">
+            <h1 class="text-gray-600 text-5xl leading-relaxed text-center p-14">
               I am a <TypewriterEffect />
             </h1>
             <p class="text-gray-600 text-lg leading-relaxed text-center mb-10">

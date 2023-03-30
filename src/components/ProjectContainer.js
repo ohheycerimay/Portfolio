@@ -66,7 +66,7 @@ function ProjectContainer() {
                   href="https://github.com/ohheycerimay/phase-5-yes-chef"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
@@ -76,7 +76,7 @@ function ProjectContainer() {
                   href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>
@@ -127,7 +127,7 @@ function ProjectContainer() {
                   href="https://github.com/paigetetz/Wander"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
@@ -137,7 +137,7 @@ function ProjectContainer() {
                   href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>
@@ -187,7 +187,7 @@ function ProjectContainer() {
                   href="https://github.com/ohheycerimay/phase-2-NoTGoT"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
@@ -197,7 +197,7 @@ function ProjectContainer() {
                   href="/*"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-gray-900 hover:bg-gray-400 duration-300">
+                  class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
               </div>

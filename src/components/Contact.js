@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import aphoto3 from './photos/aphoto3.jpeg'
+import NYC2 from './photos/NYC2.jpg'
 
 function Contact(props) {
   const [firstName, setFirstName] = useState('')
@@ -39,10 +39,10 @@ function Contact(props) {
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center pt-20">
     <div class="max-w-lg mx-auto md:mr-4 mb-8 md:mb-0">
       <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-        Say Hello!
+        Say Hello
       </h2>
       <p class="mt-4 text-lg text-gray-500">
-        Drop a line and I'll get back to you!
+        let's connect!
       </p>
       <form
         class="mt-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-8"
@@ -127,19 +127,22 @@ function Contact(props) {
             </div>
       </form>
     </div>
-    <div class="table-cell text-left sm:w-1/2 ">
-      <img
-        src={aphoto3}
-        alt="Image description"
-        class="rounded-lg shadow-md mx-auto md:ml-10 w-3/4 md:w-auto"
-      />
-      <div class="mt-2 text-center md:text-left md:ml-10 text-sm text-gray-600">
-        Photo by Michelle V. Agins/The New York Times
-      </div>
-    </div>
+
+<div className="table-cell text-left sm:w-1/2">
+  <img
+    src={NYC2}
+    alt="Image description"
+    className="rounded-lg shadow-md mx-auto md:ml-10 w-3/4 md:w-auto"
+    style={{ width: '60%' }}
+  />
+</div>
   </div>
 </section>
   )
 }
 
 export default Contact
+
+{/* <div class="mt-2 text-center md:text-left md:ml-10 text-sm text-gray-600">
+        Photo by Michelle V. Agins/The New York Times
+      </div> */}
