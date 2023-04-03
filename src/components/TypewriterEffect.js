@@ -3,26 +3,22 @@ import './Typewriter.css'
 
 
 const TypewriterEffect = () => {
+  const textsToDisplay = [    ' web developer',    ' software engineer',    ' programmer',    ' perpetual learner',  ];
+
   const [displayText, setDisplayText] = useState('');
-  const textsToDisplay = [
-    ' web developer',
-    ' software engineer',
-    ' programmer',
-    ' perpetual learner',
-  ];
   let textIndex = 0;
-  let charIndex = 0;
+  let charIndex = -1;
 
   useEffect(() => {
     const typeWriter = () => {
-      if (charIndex < textsToDisplay[textIndex].length) {
-        setDisplayText((prevDisplayText) => prevDisplayText + textsToDisplay[textIndex].charAt(charIndex));
+      if (charIndex < textsToDisplay[textIndex].length - 1) {
         charIndex++;
+        setDisplayText((prevDisplayText) => prevDisplayText + textsToDisplay[textIndex].charAt(charIndex));
         setTimeout(typeWriter, 100);
       } else {
         // Transition to the next text
         textIndex = (textIndex + 1) % textsToDisplay.length;
-        charIndex = 0;
+        charIndex = -1;
         setTimeout(() => {
           setDisplayText('');
           typeWriter();
@@ -31,6 +27,8 @@ const TypewriterEffect = () => {
     };
     typeWriter();
   }, []);
+
+
 
   return (
     <div className=" flex items-center justify-center mb-10">
