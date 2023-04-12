@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import Resume from './Resume.pdf';
+import ResumePortfolio from './ResumePortfolio.pdf';
 
 Modal.setAppElement('#root'); // set the root element for accessibility purposes
 
@@ -42,7 +42,7 @@ function ResumeModal() {
         }}
       >
         <div className="flex justify-center items-center w-full h-full">
-          <iframe style={{ border: 'none', width: '100%', height: '100%' }} className="w-full h-full" src={Resume}></iframe>
+          <iframe style={{ border: 'none', width: '100%', height: '100%' }} className="w-full h-full" src={ResumePortfolio}></iframe>
           {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded absolute top-0 right-0" onClick={handleModalClose}>Close</button> */}
         </div>
       </Modal>

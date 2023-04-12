@@ -28,7 +28,7 @@ let gotImages = [
 
 function ProjectContainer() {
   return (
-    <div class="flex flex-row flex-wrap justify-center">
+    <div class="bg-gray-100 min-h-screen flex flex-row flex-wrap justify-center">
       <div class="flex flex-row flex-wrap justify-center">
         <div class="max-w-fit rounded overflow-hidden shadow-lg w-full max-w-xl m-10">
           <div class="relative">

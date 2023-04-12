@@ -18,7 +18,7 @@ function Home(props) {
             />
           </div>
           <div className="md:w-1/2 pl-4">
-            <h1 class="text-gray-600 text-5xl leading-relaxed text-center p-14">
+            <h1 class="text-gray-600 text-5xl leading-relaxed text-center p-12">
               I am a <TypewriterEffect />
             </h1>
             <p class="text-gray-600 text-lg leading-relaxed text-center mb-10">
@@ -26,7 +26,7 @@ function Home(props) {
             </p>
 
             <div
-              className="flex flex-wrap mt-5 align-content: center mr-4"
+              className="flex flex-wrap mt-5 align-content: center "
               style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(3, 1fr)',
