@@ -124,7 +124,7 @@ function ProjectContainer() {
               <div class="mr-4">
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
-                  href="https://github.com/paigetetz/Wander"
+                  href="https://github.com/ohheycerimay/Wanderer"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-gray-900 hover:bg-gray-100 duration-300">
