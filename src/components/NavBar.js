@@ -4,8 +4,12 @@ import { NavLink } from 'react-router-dom'
 function NavBar(props) {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen)
+  function toggleMenu() {
+    setMenuOpen(!menuOpen);
+    // close the menu when a link is clicked
+    if (menuOpen) {
+      setMenuOpen(false);
+    }
   }
 
   return (
@@ -46,21 +50,21 @@ function NavBar(props) {
               <div class="ml-10 flex items-center space-x-4">
                 <a
                   href="#"
-                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={toggleMenu}>
                   <NavLink className="navlink" to="/about">
                     About
                   </NavLink>
                 </a>
                 <a
                   href="#"
-                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={toggleMenu}>
                   <NavLink className="navlink" to="/projects">
                     Portfolio
                   </NavLink>
                 </a>
                 <a
                   href="#"
-                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" onClick={toggleMenu}>
                   <NavLink className="navlink" to="/contact">
                     Contact
                   </NavLink>
@@ -76,21 +80,21 @@ function NavBar(props) {
           <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               href="#"
-              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium">
+              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
               <NavLink className="navlink" to="/about">
                 About
               </NavLink>
             </a>
             <a
               href="#"
-              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium">
+              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
               <NavLink className="navlink" to="/projects">
                 Portfolio
               </NavLink>
             </a>
             <a
               href="#"
-              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium">
+              class="text-white hover:bg-black block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
               <NavLink className="navlink" to="/contact">
                 Contact
               </NavLink>
