@@ -70,7 +70,7 @@ function ProjectContainer() {
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
                   href="/*"
@@ -79,7 +79,7 @@ function ProjectContainer() {
                   class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
-              </div>
+              </div> */}
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
@@ -131,7 +131,7 @@ function ProjectContainer() {
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
                   href="/*"
@@ -140,7 +140,7 @@ function ProjectContainer() {
                   class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
-              </div>
+              </div> */}
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
@@ -191,7 +191,7 @@ function ProjectContainer() {
                   <FontAwesomeIcon icon={faGithub} /> Github
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <p class="text-sm font-medium text-gray-700 mb-2"></p>
                 <a
                   href="/*"
@@ -200,7 +200,7 @@ function ProjectContainer() {
                   class="text-gray-900 hover:bg-gray-100 duration-300">
                   <FontAwesomeIcon icon={faVideo} /> Demo
                 </a>
-              </div>
+              </div> */}
             </div>
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
