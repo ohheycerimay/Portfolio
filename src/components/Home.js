@@ -3,8 +3,6 @@ import CeriProfile from './photos/CeriProfile.JPG'
 import ResumeModal from './ResumeModal'
 import TypewriterEffect from './TypewriterEffect'
 
-// import Modal from './Modal'
-
 function Home(props) {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center">

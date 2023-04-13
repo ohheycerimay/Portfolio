@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import ResumePortfolio from './ResumePortfolio.pdf';
 
-Modal.setAppElement('#root'); // set the root element for accessibility purposes
+Modal.setAppElement('#root'); 
 
 function ResumeModal() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleModalOpen = () => {
-    document.body.style.overflow = 'hidden'; // Prevent scrolling
+    document.body.style.overflow = 'hidden'; 
     setIsModalOpen(true);
   };
 
   const handleModalClose = () => {
-    document.body.style.overflow = 'auto'; // Allow scrolling
+    document.body.style.overflow = 'auto'; 
     setIsModalOpen(false);
   };
 

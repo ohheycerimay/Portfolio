@@ -6,7 +6,7 @@ function NavBar(props) {
 
   function toggleMenu() {
     setMenuOpen(!menuOpen);
-    // close the menu when a link is clicked
+    
     if (menuOpen) {
       setMenuOpen(false);
     }

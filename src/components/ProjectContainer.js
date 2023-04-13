@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faVideo } from '@fortawesome/free-solid-svg-icons'
 import { Carousel } from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // Import carousel styles
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 let chefImages = [
   'https://i.imgur.com/yKeZkmI.png',
@@ -13,17 +13,17 @@ let chefImages = [
 ]
 
 let wanderImages = [
-  "https://i.imgur.com/vNMUvW9.png",
-  "https://i.imgur.com/pcQ9cxe.png",
-  "https://i.imgur.com/9ZSpO2V.png",
-  "https://i.imgur.com/HeIS7st.png"
+  'https://i.imgur.com/vNMUvW9.png',
+  'https://i.imgur.com/pcQ9cxe.png',
+  'https://i.imgur.com/9ZSpO2V.png',
+  'https://i.imgur.com/HeIS7st.png',
 ]
 
 let gotImages = [
-  "https://i.imgur.com/iG8UJtw.png",
-  "https://i.imgur.com/VdAgqK5.png",
-  "https://i.imgur.com/W4t1EWu.png",
-  "https://i.imgur.com/cLc2u8s.png"
+  'https://i.imgur.com/iG8UJtw.png',
+  'https://i.imgur.com/VdAgqK5.png',
+  'https://i.imgur.com/W4t1EWu.png',
+  'https://i.imgur.com/cLc2u8s.png',
 ]
 
 function ProjectContainer() {
@@ -37,8 +37,7 @@ function ProjectContainer() {
               showStatus={false}
               showThumbs={false}
               infiniteLoop={true}
-              style={{ maxHeight: 'calc(100vh - 20rem)' }} // Subtract the height of your navbar from 100vh
-            >
+              style={{ maxHeight: 'calc(100vh - 20rem)' }}>
               {chefImages.map((image, id) => (
                 <div key={id}>
                   <img
@@ -50,7 +49,6 @@ function ProjectContainer() {
               ))}
             </Carousel>
             <div class="absolute top-0 left-0 right-0 h-20"></div>{' '}
-            {/* Replace h-16 with the height of your navbar */}
           </div>
 
           <div class="px-6 py-4">
@@ -99,8 +97,7 @@ function ProjectContainer() {
               showStatus={false}
               showThumbs={false}
               infiniteLoop={true}
-              style={{ maxHeight: 'calc(100vh - 20rem)' }} // Subtract the height of your navbar from 100vh
-            >
+              style={{ maxHeight: 'calc(100vh - 20rem)' }}>
               {wanderImages.map((image, id) => (
                 <div key={id}>
                   <img
@@ -112,13 +109,12 @@ function ProjectContainer() {
               ))}
             </Carousel>
             <div class="absolute top-0 left-0 right-0 h-20"></div>{' '}
-            {/* Replace h-16 with the height of your navbar */}
           </div>
 
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Wander</div>
             <p class="text-gray-700 text-base">
-            Wander is a niche travel blog that showcases unique experiences.
+              Wander is a niche travel blog that showcases unique experiences.
             </p>
             <div class="py-4 flex">
               <div class="mr-4">
@@ -159,8 +155,7 @@ function ProjectContainer() {
               showStatus={false}
               showThumbs={false}
               infiniteLoop={true}
-              style={{ maxHeight: 'calc(100vh - 20rem)' }} // Subtract the height of your navbar from 100vh
-            >
+              style={{ maxHeight: 'calc(100vh - 20rem)' }}>
               {gotImages.map((image, id) => (
                 <div key={id}>
                   <img
@@ -172,13 +167,13 @@ function ProjectContainer() {
               ))}
             </Carousel>
             <div class="absolute top-0 left-0 right-0 h-20"></div>{' '}
-            {/* Replace h-16 with the height of your navbar */}
           </div>
 
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">GoT or Not</div>
             <p class="text-gray-700 text-base">
-            A Game of Thrones meets Grand Theft Auto with a dash of satire dating site.
+              A Game of Thrones meets Grand Theft Auto with a dash of satire
+              dating site.
             </p>
             <div class="py-4 flex">
               <div class="mr-4">

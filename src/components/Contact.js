@@ -25,9 +25,9 @@ function Contact(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    // Submit form data
+
     console.log({ firstName, lastName, email, message })
-    // Reset form
+
     setFirstName('')
     setLastName('')
     setEmail('')
@@ -36,19 +36,17 @@ function Contact(props) {
 
   return (
     <section class="bg-gray-100 py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center pt-20">
-    <div class="max-w-lg mx-auto md:mr-4 mb-8 md:mb-0">
-      <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-        Say Hello
-      </h2>
-      <p class="mt-4 text-lg text-gray-500">
-        let's connect!
-      </p>
-      <form
-        class="mt-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-8"
-        action="https://formspree.io/f/xayzbrao"
-        method="POST">
-         <div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center pt-20">
+        <div class="max-w-lg mx-auto md:mr-4 mb-8 md:mb-0">
+          <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            Say Hello
+          </h2>
+          <p class="mt-4 text-lg text-gray-500">let's connect!</p>
+          <form
+            class="mt-9 grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-8"
+            action="https://formspree.io/f/xayzbrao"
+            method="POST">
+            <div>
               <label
                 for="first_name"
                 class="block text-sm font-medium text-gray-700">
@@ -125,24 +123,26 @@ function Contact(props) {
                 Send message
               </button>
             </div>
-      </form>
-    </div>
+          </form>
+        </div>
 
-<div className="table-cell text-left sm:w-1/2">
-  <img
-    src={NYC2}
-    alt="Image description"
-    className="rounded-lg shadow-md mx-auto md:ml-10 w-3/4 md:w-auto"
-    style={{ width: '60%' }}
-  />
-</div>
-  </div>
-</section>
+        <div className="table-cell text-left sm:w-1/2">
+          <img
+            src={NYC2}
+            alt="Image description"
+            className="rounded-lg shadow-md mx-auto md:ml-10 w-3/4 md:w-auto"
+            style={{ width: '60%' }}
+          />
+        </div>
+      </div>
+    </section>
   )
 }
 
 export default Contact
 
-{/* <div class="mt-2 text-center md:text-left md:ml-10 text-sm text-gray-600">
+{
+  /* <div class="mt-2 text-center md:text-left md:ml-10 text-sm text-gray-600">
         Photo by Michelle V. Agins/The New York Times
-      </div> */}
+      </div> */
+}
