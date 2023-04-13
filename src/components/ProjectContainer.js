@@ -237,7 +237,7 @@ function ProjectContainer() {
           </div>
 
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Wander</div>
+            <div class="font-bold text-xl mb-2">Personal Portfolio</div>
             <p class="text-gray-700 text-base">
             This portfolio showcases my projects and achievements, providing a glimpse into my skills and work style.
             </p>
