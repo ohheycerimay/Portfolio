@@ -96,7 +96,7 @@ function ProjectContainer() {
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                React, Ruby on Rails
+                React, Tailwind
               </span>
             </div>
           </div>
@@ -155,7 +155,7 @@ function ProjectContainer() {
             <div class="py-4">
               <p class="text-sm font-medium text-gray-700 mb-2">Tech Used:</p>
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                React, Tailwind
+                React, Ruby on Rails
               </span>
             </div>
           </div>
