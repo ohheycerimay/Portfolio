@@ -6,9 +6,9 @@ import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 let truckImages = [
-  'https://i.imgur.com/z1mv9Fk.png',
-  'https://i.imgur.com/cUp1qRr.png',
-  'https://i.imgur.com/ommwGBV.png',
+  'https://i.imgur.com/xIJsPxC.png',
+  'https://i.imgur.com/y4iViXB.png',
+  'https://i.imgur.com/eWc9E6k.png',
 ]
 
 let chefImages = [
